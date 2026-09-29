@@ -1,0 +1,18 @@
+:root { color-scheme: light; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f7f7f8; color: #222; }
+.container { max-width: 960px; margin: 0 auto; padding: 1.5rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem; }
+.field { display: flex; flex-direction: column; gap: 0.25rem; margin-bottom: 0.75rem; }
+label { font-weight: 600; }
+input, textarea, button { font-size: 1rem; padding: 0.5rem; border-radius: 6px; border: 1px solid #bbb; }
+button { background: #1a73e8; color: white; border: none; cursor: pointer; padding: 0.6rem 1rem; }
+button:disabled { opacity: 0.6; cursor: wait; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #ffbf47; outline-offset: 2px; }
+.error { color: #b00020; }
+.success { color: #0a7a2e; font-weight: 600; }
+.muted { color: #555; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0.75rem; }
+.card, .panel { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 1rem; margin: 0.5rem 0; }
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 0.5rem; top: 0.5rem; background: white; padding: 0.5rem; z-index: 10; }
+@media (max-width: 600px) { .container { padding: 1rem; } }

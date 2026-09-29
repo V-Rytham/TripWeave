@@ -1,0 +1,31 @@
+
+[tool.poetry]
+name = "ai-travel-agent"
+version = "0.1.1"
+description = ""
+authors = ["Nir Bar"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+langchain = "^0.2.0"
+langchain-openai = "^0.1.0"
+langgraph = "^0.2.0"
+grandalf = "^0.8"
+sendgrid = "^6.11.0"
+streamlit = "^1.38.0"
+serpapi = "^0.1.5"
+fastapi = "^0.115.0"
+uvicorn = "^0.34.0"
+strawberry-graphql = { version = "^0.260.0", extras = ["fastapi"] }
+pydantic = "^2.0.0"
+email-validator = "^2.0.0"
+pytest = "^8.0.0"
+pytest-asyncio = "^0.23.0"
+httpx = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
