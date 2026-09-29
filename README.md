@@ -11,7 +11,7 @@ Welcome to the AI Travel Agent repository! This project demonstrates how to leve
 ## Getting Started
 Clone the repository, set up the virtual environment, and install the required packages
 
-1. git clone git@github.com:nirbar1985/ai-travel-agent.git
+1. git clone https://github.com/V-Rytham/TripWeave
 
 1. ( In case you have python version 3.11.9 installed in pyenv)
    ```shell script
